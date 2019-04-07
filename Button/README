@@ -1,0 +1,6 @@
+We use the DreamCheeky USB Red Button to trigger red alert on the Comms console.
+
+Artemis 2.7 changed the red alert hotkey to control-R.
+With alert27.bat, the DreamCheeky app can send ^r but Artemis SBS does not recognize it.
+Instead, we use the Esc key as another hotkey for red alert.
+This requires Comms to run alert27esc.bat, and have controls-comms.ini installed.
