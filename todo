@@ -1,0 +1,49 @@
+New can lights:
+            1st channel value can be anything in each range (no difference)
+            0-42 means CH2 is strobe frequency
+           43-85 means CH2 is speed of brightness change (bright to dark)
+           86-128 means CH2 is brightness
+          129-171 means CH2 is brightness, with sound control enabled
+          172-214 means CH2 is speed of auto color change
+          215-255 means CH2 is speed of auto color change, with sound control enabled
+          CH1: 128
+          CH2: Intensity
+          CH3-5: RGB?
+
+          Light list:
+            Can1 1(5)
+            Can2 6
+            Can3 11
+            Can4 16
+            L1 (or X1) 21     
+            ...
+            Audio 471
+            WeMo 472
+            Ceiling 473(3)
+
+          Can1  ENERGY
+          Can2  SCAN or TARGET
+          Can3  READY or BEAMS
+          Can4  DOCKED or DRIVE
+
+04/07/19 FIX: red alert button
+04/07/19 FIX: can light config based on ThalerPortableBridge-1strip
+04/07/19 FIX: audio cues
+
+{
+
+---
+
+2/2 FIX: rename profiles now that we use source control
+
+2/2 ADD: nebula effect of some sort to X lights
+
+2/2 Check quick reference pages
+
+2/2 Check artemis.ini settings
+
+2/2 TEST: add boost/brake cues to fighter DMX config
+
+2/2 DO: make chase sequence speed up by warp speed
+
+}
